@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../Assets/logo.png";
+// import logo from "..assets/logo";
 
 const Navbar = () => {
   const [cartquantity, setcartquantity] = useState(0);
   return (
     <nav>
       <div className="s1">
-        <img src={logo} alt="logo" className="logo" />
+        {/* <img salt="logo" className="logo" /> */}
         <div className="searchbar">
           <input
             type="text"
